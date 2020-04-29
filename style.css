@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+body {
+  background-color: black;
+  font-family: 'PT Mono', monospace;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  margin:20px 20px 20px 20px;
+}
+
+i {
+  padding-bottom: 20px;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-green {
+  color: lime;
+}
+
+.text-blue {
+  color: blue;
+}
+
+.text-pink {
+  color: fuchsia;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.banner {
+  display: block;
+  margin: 0 auto;
+}
+
+.btn-blue-radius {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 20 auto;
+  transition: background-color 0.7s ease;
+}
+
+.btn-blue-radius:hover {
+  background-color: aqua;
+  color: black;
+  transition: background-color 0.7s ease;
+}
+
+.card{
+  margin: 30px auto;
+  border: dotted;
+  padding: 30px;
+}
+
+#phrase {
+  padding-bottom: 15px;
+}
+
+#img-circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  font-size: 48px;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.list-inline a{
+  color: blue;
+  transition: background-color 0.7s ease;
+}
+
+.list-inline a:hover{
+  color: aqua;
+  transition: background-color 0.7s ease;
+}
